@@ -16,4 +16,4 @@
    * Saint Petersburg Electrotechnical University "LETI" __2017-2019__
       * _Master of Information Systems and Technologies_ 
 # Languages
-  English (A2 - Elementary)
+   * English (A2 - Elementary)
