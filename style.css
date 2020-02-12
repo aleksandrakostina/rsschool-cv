@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: 'Lato', sans-serif;
+    color: #674e4ce6;   
+}
+
+*, 
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, 
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1039px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.col--1 {
+    width: 30%;
+}
+
+.col--2 {
+    width: 70%;
+    padding-left: 15px;
+}
+
+/*---------Header----------*/
+.header {
+    padding: 20px 0;
+
+    background-color: #ca8188;
+    box-shadow: 0 0 20px rgba(93, 42, 42, 0.5);
+}
+
+.header__inner {
+    display: flex; 
+}
+
+.header__inner .col--2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name, .prof {
+    color: #ffffff;   
+}
+
+.name {
+    font-size: 30px;  
+}
+
+.prof {
+    font-size: 22px;
+}
+
+.photo {   
+    width: 100%;
+    /*max-width: 200px;*/
+    height: auto;
+}
+
+/*--------Main--------*/
+.main__inner {
+    display: flex;
+    flex-wrap: wrap;                                                                                   
+    margin: 20px auto;
+}
+
+.contact__item {
+    padding-bottom: 6px;
+
+    font-size: 15px;  
+}
+
+.contact__item i {
+    padding-right: 5px;
+}
+
+.contact__item a {
+    text-decoration: none;
+    color: #674e4ce6;
+}
+
+.contact__item a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.title:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 20px 0 5px;
+
+    background-color: #ca8188;
+}
+.table {
+    border-spacing: 0;
+}
+
+.years {
+    padding: 0 10px;
+}
+
+.footer {
+    padding: 15px 0;
+
+    text-align: center;
+    color: #ffffff;
+
+    background-color: #ca8188; 
+}
+
+/*-----Media-------*/
+@media (max-width: 970px) {
+    .main__inner .col--1, .main__inner .col--2 {    
+        width: 100%;
+    }
+
+    .main__inner .col--2 {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .name {
+        font-size: 22px;
+    }
+
+    .prof {
+        font-size: 17px;
+    }
+
+    .title{
+        font-size: 15px;
+    }
+}
